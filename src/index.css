@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(111, 67, 255);
+  color: white;
+  padding: 20rem 350rem 20rem 350rem;
+  margin-bottom: 50rem;
+}
+
+.useReducer {
+  font-size: 35rem;
+  font-weight: 500;
+}
+
+.shopping-cart {
+  width: 45rem;
+}
+
+.cart-div {
+  position: relative;
+}
+
+.cart-number {
+  position: absolute;
+  font-size: 25rem;
+  background-color: rgb(168, 141, 255);
+  padding: 1rem 8rem 1rem 8rem;
+  border-radius: 50%;
+  left: 53%;
+  top: -17%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+}
+
+.your-bag {
+  font-size: 50rem;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+  margin-bottom: 30rem;
+}
+
+.products-list {
+  margin-bottom: 30rem;
+}
+
+.price-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5rem;
+  font-size: 25rem;
+  border-top: 2rem solid rgb(202, 202, 202);
+  padding-top: 10rem;
+}
+
+.total-price {
+  color: white;
+  background-color: rgb(111, 67, 255);
+  padding: 1rem 5rem 1rem 5rem;
+  border-radius: 5rem;
+}
+
+.clear-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 15rem;
+  color: rgb(111, 67, 255);
+  padding: 5rem 11rem 5rem 11rem;
+  border-radius: 5rem;
+  background-color: rgba(120, 79, 253, 0.423);
+  transition: 0.3s ease;
+}
+
+.clear-btn:hover {
+  background-color: rgb(111, 67, 255);
+  color: rgb(215, 204, 255);
+}
