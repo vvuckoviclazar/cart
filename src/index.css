@@ -68,8 +68,19 @@ header {
   margin-bottom: 30rem;
 }
 
+.empty-message {
+  font-size: 35rem;
+  font-weight: 500;
+  color: rgb(120, 120, 120);
+  text-align: center;
+}
+
 .products-list {
   margin-bottom: 30rem;
+  list-style-type: none;
+  padding-left: 0rem;
+  color: black;
+  width: 100%;
 }
 
 .price-div {
@@ -86,22 +97,109 @@ header {
 .total-price {
   color: white;
   background-color: rgb(111, 67, 255);
-  padding: 1rem 5rem 1rem 5rem;
+  padding: 1rem 6rem 1rem 6rem;
   border-radius: 5rem;
 }
 
 .clear-btn {
   border: none;
   cursor: pointer;
-  font-size: 15rem;
+  font-size: 16rem;
   color: rgb(111, 67, 255);
-  padding: 5rem 11rem 5rem 11rem;
+  padding: 5rem 12rem 5rem 12rem;
   border-radius: 5rem;
   background-color: rgba(120, 79, 253, 0.423);
   transition: 0.3s ease;
+  margin-bottom: 50rem;
 }
 
 .clear-btn:hover {
   background-color: rgb(111, 67, 255);
   color: rgb(215, 204, 255);
+}
+
+.product-img {
+  width: 90rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20rem;
+}
+
+.info-div {
+  display: flex;
+  align-items: center;
+}
+
+.product-title {
+  font-size: 27rem;
+  font-weight: 500;
+  letter-spacing: 2rem;
+  color: rgb(57, 57, 57);
+  text-transform: capitalize;
+}
+
+.product-price {
+  font-size: 20rem;
+  font-weight: 500;
+  color: gray;
+  font-weight: 300;
+}
+
+.remove-btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(111, 67, 255);
+  font-size: 16rem;
+  letter-spacing: 0.5rem;
+  padding-left: 2rem;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+  text-decoration: underline rgb(111, 67, 255);
+}
+
+.title-div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.amount-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.amount-span {
+  font-size: 25rem;
+  font-weight: 500;
+  color: rgb(34, 34, 34);
+}
+
+.increase,
+.decrease {
+  padding: 0rem;
+  border: none;
+  background-color: transparent;
+}
+
+.increase:hover,
+.decrease:hover {
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 25rem;
+  padding: 0rem;
+  color: rgb(106, 61, 255);
+}
+
+.btn-icon:hover {
+  transform: scale(1.1);
 }
